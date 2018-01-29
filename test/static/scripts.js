@@ -1,5 +1,3 @@
-// execute when the DOM is fully loaded
-
 $.getJSON('https://www.highcharts.com/samples/data/jsonp.php?filename=aapl-c.json&callback=?', function (data) {
     // Create the chart
     Highcharts.stockChart('container', {
